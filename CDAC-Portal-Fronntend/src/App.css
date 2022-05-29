@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  position: relative;
+}
+
+.div-border {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+
+.admin-field-container {
+  margin-top: 70px;
+}
+.admin-field {
+  transition: all 0.3s ease;
+}
+
+.admin-field:hover {
+  box-shadow: 1px 1px 5px #777;
+}
+
+nav > img {
+  width: 400px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.admin-field-middle {
+  position: relative;
+}
+
+.export {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.notice {
+  margin: 30px 0;
+  display: block !important;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.export-button {
+  padding: 5px 40px !important;
+}
+
+.next-button {
+  display: block !important;
+  margin: 10px auto;
+  width: 10%;
+}
+
+input:focus {
+  outline: none;
+  border: none !important;
+}
+
+
+.form-label {
+  text-align: center !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.button-align {
+  display: block !important;
+  width: 100%;
+}
+
+
+/* .footer{
+  position: absolute;
+  bottom: 0;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+} */
+
+
